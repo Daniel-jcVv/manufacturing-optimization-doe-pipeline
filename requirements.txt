@@ -1,0 +1,9 @@
+pandas
+numpy
+python-dotenv
+SQLAlchemy
+psycopg2-binary
+apache-airflow==2.9.3
+streamlit
+plotly
+scikit-learn
