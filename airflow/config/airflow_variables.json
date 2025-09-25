@@ -1,0 +1,16 @@
+{
+  "experiment_data_path": "/opt/airflow/data/raw/experiment_results.csv",
+  "production_data_path": "/opt/airflow/data/raw/production_data.csv",
+  "results_output_dir": "/opt/airflow/data/results",
+  "doe_pipeline_email_recipients": "doe-team@company.com",
+  "maintenance_retention_days": "30",
+  "performance_alert_thresholds": {
+    "cpu_percent_max": 80,
+    "memory_percent_max": 85,
+    "disk_percent_max": 90
+  },
+  "data_freshness_threshold_hours": 168,
+  "pipeline_timeout_minutes": 60,
+  "notification_enabled": true,
+  "debug_mode": false
+}
